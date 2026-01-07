@@ -37,9 +37,34 @@ sudo nano /etc/samba/smb.conf
 ```
 Lisää sen loppuun seuraavat tiedot (tässä esimerkissä nimenä on oma-samba)
 ```
-Comment = Oma Samba
+Comment = oma-samba
 [oma-samba]
 read-only = no
 browsable = yes
 ```
 Paina sitten Ctrl+O tallentaaksesi ja Ctrl+X poistuaksesi
+
+6. Käynnistä Samba
+```
+sudo service smbd restart
+```
+7. Jos sinulla on ufw-palomuuri käytössä - salli Samba
+```
+sudo ufw allow samba
+```
+8. Aseta Samba käyttäjä ja salasana (`XXXXXX on käyttäjänimesi`)
+```
+sudo smbpasswd -a XXXXXXX
+```
+9. Käynnistä kone uudelleen.
+
+Pääkoneen tiedostonhallinnassa kohdassa Verkko pitäisi nyt näkyä Samba-hakemistosi (esimerkissä oma-samba). Se kysyy käyttäjätunnusta ja salasanaa avattaessa.
+
+Käyttäjätunnus on
+```
+Näyttökoneen käyttäjätunnus eli XXXXXX
+```
+ja salasana on juuri lisäämäsi sambasalasana 
+```
+eli salasana jonka lisäsit komentoon smbpasswd
+```
