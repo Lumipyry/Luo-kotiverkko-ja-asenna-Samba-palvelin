@@ -1,6 +1,6 @@
 # Luo-kotiverkko-ja-asenna-Samba-palvelin
 
-1. Tee pääkoneen IPv4 asetukset kuvan kaltaisiksi. Voit kohdassa Tiedot nimetä verkkoyhteyden haluamasi kaltaiseksi, mutta se ei ole merkityksellistä. (Kuvassa Linux Bazzite Gnome)
+1.Tee pääkoneen IPv4 asetukset kuvan kaltaisiksi. Voit kohdassa Tiedot nimetä verkkoyhteyden haluamasi kaltaiseksi, mutta se ei ole merkityksellistä. (Kuvassa Linux Bazzite Gnome)
 <img width="804" height="660" alt="Kuvakaappaus - 2026-01-07 01-10-23" src="https://github.com/user-attachments/assets/deb2551c-cceb-4bf7-84e7-0fb165d144d8" />
 
 2. Tee 2-näyttökoneen IPv4 asetukset kuvan kaltaisiksi. (Kuvassa Linux Mint 22 Cinnamon)
@@ -35,14 +35,16 @@ mkdir ~/XXXXXX
 ```
 sudo nano /etc/samba/smb.conf
 ```
-Lisää sen loppuun seuraavat tiedot (tässä esimerkissä nimenä on XXXXXX)
+Lisää sen loppuun seuraavat tiedot (tässä esimerkissä Sambajaon nimenä on XXXXXX). YYYYY on käyttäjätunnuksesi
 ```
 [XXXXXX]
-Comment = XXXXXXX (keksi oma kommentti)
+path = /home/YYYYY/XXXXXX
 read-only = no
 browsable = yes
+
 ```
 Paina sitten Ctrl+O tallentaaksesi ja Ctrl+X poistuaksesi
+<img width="654" height="442" alt="Kuvakaappaus 2026-01-07 15-22-55" src="https://github.com/user-attachments/assets/2a472d2e-631c-47b9-955c-00d71a8fd6de" />
 
 6. Käynnistä Samba
 ```
