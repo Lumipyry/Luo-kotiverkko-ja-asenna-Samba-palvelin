@@ -58,7 +58,7 @@ sudo smbpasswd -a XXXXXXX
 ```
 9. Käynnistä kone uudelleen.
 
-Pääkoneen tiedostonhallinnassa kohdassa Verkko pitäisi nyt näkyä Samba-hakemistosi (esimerkissä oma-samba). Se kysyy käyttäjätunnusta ja salasanaa avattaessa.
+Pääkoneen tiedostonhallinnassa kohdassa Verkko pitäisi nyt näkyä Samba-hakemistosi (esimerkissä oma-samba). Avatessa se kysyy käyttäjätunnusta ja salasanaa avattaessa.
 
 Käyttäjätunnus on
 ```
