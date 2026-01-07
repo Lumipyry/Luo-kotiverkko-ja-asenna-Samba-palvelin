@@ -44,8 +44,10 @@ browsable = yes
 
 ```
 Paina sitten Ctrl+O tallentaaksesi ja Ctrl+X poistuaksesi
-<img width="654" height="442" alt="Kuvakaappaus 2026-01-07 15-22-55" src="https://github.com/user-attachments/assets/2a472d2e-631c-47b9-955c-00d71a8fd6de" />
 
+<img width="654" height="442" alt="Kuvakaappaus 2026-01-07 15-22-55" src="https://github.com/user-attachments/assets/8822b23a-4289-43b9-8827-953b296df60f" />
+
+####
 6. Käynnistä Samba
 ```
 sudo service smbd restart
