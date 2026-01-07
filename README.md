@@ -37,8 +37,8 @@ sudo nano /etc/samba/smb.conf
 ```
 Lisää sen loppuun seuraavat tiedot (tässä esimerkissä nimenä on oma-samba)
 ```
-Comment = oma-samba
 [oma-samba]
+Comment = oma-samba
 read-only = no
 browsable = yes
 ```
