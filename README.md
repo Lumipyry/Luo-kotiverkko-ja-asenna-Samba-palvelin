@@ -52,7 +52,7 @@ sudo service smbd restart
 ```
 sudo ufw allow samba
 ```
-8. Aseta Samba käyttäjä ja salasana (`XXXXXX on käyttäjänimesi`)
+8. Aseta Samba käyttäjä ja salasana (`XXXXXX on käyttäjätunnuksesi näyttökoneessa`)
 ```
 sudo smbpasswd -a XXXXXXX
 ```
