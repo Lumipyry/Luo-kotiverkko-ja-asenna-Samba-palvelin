@@ -38,7 +38,7 @@ sudo nano /etc/samba/smb.conf
 Lisää sen loppuun seuraavat tiedot (tässä esimerkissä nimenä on XXXXXX)
 ```
 [XXXXXX]
-Comment = XXXXXXX (keksi oma kommnentti)
+Comment = XXXXXXX (keksi oma kommentti)
 read-only = no
 browsable = yes
 ```
