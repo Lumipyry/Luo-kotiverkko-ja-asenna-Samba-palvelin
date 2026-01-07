@@ -7,7 +7,7 @@
 <img width="712" height="488" alt="Kuvakaappaus 2026-01-07 01-32-19" src="https://github.com/user-attachments/assets/fdea503e-5c33-4197-b08c-aae71c31746f" />
 
 
-_Huomaa ero: Pääkoneen osoite on 10.0.0.0 ja 2-koneen osoite on 10.0.0.1_
+_Huomaa ero: Pääkoneen osoite on 10.0.0.0 ja 2-koneen osoite on 10.0.0.1_. Molemmissa yhteysmuodon tulee olla _Manuaalinen_.
 
 3. Se on siinä. Verkkoyhteys on luotu. (Muistit kai yhdistää koneet Ethernet-piuhalla). Joissakin Linux jakeluissa tulee vielä kohdassa Tiedot erikseen ruksia vaihtoehto "Yhdistä automaattisesti".
 
