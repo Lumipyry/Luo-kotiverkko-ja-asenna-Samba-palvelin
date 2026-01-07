@@ -26,19 +26,19 @@ ping 10.0.0.0
 ```
 sudo apt install samba
 ```
-5.1 Luo hakemisto Sambaa varten näyttökoneen kotihakemistoon (nimeä se haluamaksesi - tässä esimerkissä sen nimi on oma-samba)
+5.1 Luo hakemisto Sambaa varten näyttökoneen kotihakemistoon (nimeä se haluamaksesi - tässä esimerkissä sen nimi on XXXXXX)
 ```
-mkdir ~/oma-samba
+mkdir ~/XXXXXX
 ```
 
 5.2 Muokkaa Samban asetustiedostoa niin että se tunnistaa uuden Samba-jakotiedostosi
 ```
 sudo nano /etc/samba/smb.conf
 ```
-Lisää sen loppuun seuraavat tiedot (tässä esimerkissä nimenä on oma-samba)
+Lisää sen loppuun seuraavat tiedot (tässä esimerkissä nimenä on XXXXXX)
 ```
-[oma-samba]
-Comment = oma-samba
+[XXXXXX]
+Comment = XXXXXXX (keksi oma kommnentti)
 read-only = no
 browsable = yes
 ```
