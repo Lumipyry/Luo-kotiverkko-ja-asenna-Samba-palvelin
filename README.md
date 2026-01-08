@@ -48,11 +48,11 @@ browsable = yes
 writable = yes
 guest ok = yes
 ```
+<img width="798" height="612" alt="Kuvakaappaus 2026-01-08 23-45-46" src="https://github.com/user-attachments/assets/4eb3cec9-a481-4ece-b2cf-96df7a07e22a" />
 
-<img width="654" height="442" alt="Kuvakaappaus 2026-01-07 15-22-55" src="https://github.com/user-attachments/assets/8822b23a-4289-43b9-8827-953b296df60f" />
 
 *
-5. Paina sitten Ctrl+O tallentaaksesi ja Ctrl+X poistuaksesi
+5. Paina sitten `Ctrl+O` tallentaaksesi ja `Ctrl+x` poistuaksesi
 
 *
 
@@ -60,14 +60,15 @@ guest ok = yes
 ```
 sudo service smbd restart
 ```
-7. Jos sinulla on ufw-palomuuri käytössä - salli Samba
-```
-sudo ufw allow samba
-```
-8. Aseta Samba käyttäjä ja salasana (`XXXXXX on käyttäjätunnuksesi näyttökoneessa`)
+
+7. Aseta Samba käyttäjä ja salasana (`XXXXXX on käyttäjätunnuksesi näyttökoneessa`)
 ```
 sudo smbpasswd -a XXXXXXX
 ```
+8. Jos sinulla on ufw-palomuuri käytössä - salli Samba
+```
+sudo ufw allow samba
+``````
 9. Käynnistä kone uudelleen.
 
 Pääkoneen tiedostonhallinnassa kohdassa Verkko pitäisi nyt näkyä Samba-hakemistosi (esimerkissä oma-samba). Avattaessa se kysyy käyttäjätunnusta ja salasanaa.
