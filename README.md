@@ -45,7 +45,8 @@ sudo nano /etc/samba/smb.conf
 path = /home/YYYYY/XXXXXX
 read-only = no
 browsable = yes
-
+writable = yes
+guest ok = yes
 ```
 
 <img width="654" height="442" alt="Kuvakaappaus 2026-01-07 15-22-55" src="https://github.com/user-attachments/assets/8822b23a-4289-43b9-8827-953b296df60f" />
