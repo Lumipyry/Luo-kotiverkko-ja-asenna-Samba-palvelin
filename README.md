@@ -30,9 +30,9 @@ ping 10.0.0.0
 ```
 sudo apt install samba
 ```
-2. Luo hakemisto Sambaa varten näyttökoneen kotihakemistoon (nimeä se haluamaksesi - tässä esimerkissä sen nimi on XXXXXX)
+2. Luo hakemisto Sambaa varten näyttökoneen kotihakemistoon (nimeä se haluamaksesi - tässä esimerkissä sen nimi on XXXXXX) YYYYY on käyttäjätunnuksesi
 ```
-mkdir ~/XXXXXX
+mkdir /home/YYYYY/XXXXXX
 ```
 
 3. Muokkaa Samban asetustiedostoa niin että se tunnistaa uuden Samba-jakotiedostosi
