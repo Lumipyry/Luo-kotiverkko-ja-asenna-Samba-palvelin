@@ -48,6 +48,7 @@ browsable = yes
 writable = yes
 guest ok = yes
 ```
+Alla olevassa kuvassa smb.conf-tiedosto on avattu nano-editorissa ja Sambajaon nimi on Samba-jako
 <img width="798" height="612" alt="Kuvakaappaus 2026-01-08 23-45-46" src="https://github.com/user-attachments/assets/4eb3cec9-a481-4ece-b2cf-96df7a07e22a" />
 
 
