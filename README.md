@@ -1,4 +1,4 @@
-# Luo-kotiverkko-ja-asenna-Samba-palvelin
+# Luo kotiverkko ja asenna Samba palvelin
 
 1. Tee pääkoneen IPv4 asetukset kuvan kaltaisiksi. Voit kohdassa Tiedot nimetä verkkoyhteyden haluamasi kaltaiseksi, mutta se ei ole merkityksellistä. (Kuvassa Linux Bazzite Gnome)
 
